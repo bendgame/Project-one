@@ -24,6 +24,9 @@ $ git add .
 Verify file: 
 $ git status
 
+Commit the files:
+git commit -m "comment"
+
 Add branch and files to the Remote Repo:
 $ git push -u origin branch_name
 
