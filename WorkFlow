@@ -30,14 +30,14 @@ Verify file:
 $ git status
 
 Commit the files:
-git commit -m "comment"
+$ git commit -m "comment"
 
 Add branch and files to the Remote Repo:
 $ git push -u origin branch_name
 
 Go to the github website to manage pull request and merge. 
 
-Swith back to local master so you can delete the local branch:
+Switch back to local master so you can delete the local branch:
 $ git checkout master
 
 Delete local branch: 
