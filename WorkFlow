@@ -6,6 +6,9 @@ ls - view the files/folders in directory
 NOTE: Exit VIM if needed ctrl + c then type :qa! and push enter
 NOTE: If file is not in local repo, manually move the file into the correct folder (outside of console)
 
+NOTE: If you need to hard reset your local repo to match the remote master use the following commands:
+$ git fetch origin
+$ git reset --hard origin/master
 
 -------------------------------------------------------
 BEGIN WORKFLOW
