@@ -29,6 +29,9 @@ BEGIN WORKFLOW
 Clone the Repo to local machine:
 $ git clone https://github.com/bendgame/Project-one.git
 
+Make sure the local master is up-to-date:
+$ git pull origin master
+
 Create new branch:
 $ git banch branch_name
 
